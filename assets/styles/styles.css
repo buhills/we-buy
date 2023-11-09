@@ -199,14 +199,14 @@ footer {
   }
 }
 
-.main-tex {
+&.main-tex {
   background-image: "url (../images/pexels-nick-wehrli-3751391.jpg)";
   height: 50rem;
   width: 100%;
   background-size: cover;
 }
 
-&.default {
+&.headercontainer {
   display: flex;
   height: 8vh;
   background-color: #e7e3e3;
@@ -216,7 +216,7 @@ footer {
   width: 100%;
 }
 
-&.default {
+&h1 {
   display: block;
   font-size: 6em;
   margin-block-start: 0.67em;
@@ -226,7 +226,7 @@ footer {
   font-weight: bold;
 }
 
-&.default {
+&h2 {
   display: block;
   font-size: 3em;
   margin-block-start: 0.67em;
@@ -236,7 +236,7 @@ footer {
   font-weight: bold;
 }
 
-&.default {
+&h3 {
   display: block;
   font-size: 3em;
   margin-block-start: 0.67em;
@@ -260,16 +260,16 @@ input {
   text-indent: 20px;
 }
 
-.valuation-container-textblock {
+&.valuation-container-textblock {
   padding-right: 100px;
   height: 100px;
   padding-left: 100px;
   width: 62em;
 }
 
-#states,
-#fname,
-#pname {
+&#states,
+&#fname,
+&#pname {
   height: 70px;
   background-color: #dbd5d5;
   border: none;
