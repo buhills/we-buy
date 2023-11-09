@@ -190,7 +190,7 @@ footer {
   margin-bottom: 10px;
 }
 
-@media only screen and ( max-width: 1090px) {
+@media only screen and ( max-width: 1090px ) {
   * {
     box-sizing: border-box;
     margin: 0;
@@ -198,14 +198,13 @@ footer {
     font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
 
   }
+}
 
-  }
-  
-  .main-tex {
-    background-image: url(../images/pexels-nick-wehrli-3751391.jpg);
-    height: 50rem;
-    width: 100%;
-    background-size: cover;
+.main-tex {
+  background-image: "url (../images/pexels-nick-wehrli-3751391.jpg)";
+  height: 50rem;
+  width: 100%;
+  background-size: cover;
 }
 
 .headercontainer {
@@ -233,8 +232,8 @@ h2 {
   font-size: 3em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
@@ -243,8 +242,8 @@ h3 {
   font-size: 3em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
@@ -253,8 +252,8 @@ p {
   font-size: 2.2em;
   margin-block-start: 2em;
   margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
 }
 
 input {
@@ -269,7 +268,9 @@ input {
   width: 62em;
 }
 
-#states, #fname, #pname {
+#states, 
+#fname, 
+#pname {
   height: 70px;
   background-color: #dbd5d5;
   border: none;
