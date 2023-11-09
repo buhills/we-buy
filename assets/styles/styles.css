@@ -80,7 +80,7 @@ h1 {
   background-color: #f7f7f7;
   padding-left: 15px;
   padding-right: 15px;
-  margin: -70px -60px 15px 15px;
+  margin: -70px -40px 15px 15px;
   border-radius: 10px;
   border-color: 2px #000;
   display: block;
@@ -92,9 +92,10 @@ h1 {
   text-align: left;
 }
 
-.valuation-container-textfield-plt-ste{
+.valuation-container-textfield-plt-ste
+.valuation-container-textfield-vin {
   background-color: #b20000;
-  text-align: left;
+  float: left;
 }
 
 .valuation-container-whysellwithus {
@@ -156,7 +157,7 @@ h1 {
 }
 
 h3 {
-  color: whitesmoke;
+  color: #f5f5f5;
   padding: 20px;
 }
 
@@ -183,11 +184,10 @@ footer {
 }
 
 .footer-container-logo-txt {
-  color: white;
+  color: #fff;
   height: 2vh;
   width: max-content;
   padding-top: 7px;
-  margin-bottom: ;
 }
 
 .icons-container {
