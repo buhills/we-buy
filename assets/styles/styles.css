@@ -122,7 +122,8 @@ h1 {
 }
 
 #states,
-#fname {
+#fname, 
+#pname {
  height: 35px;
  background-color: #dbd5d5 ;
  border: none;
