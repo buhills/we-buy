@@ -190,13 +190,12 @@ footer {
   margin-bottom: 10px;
 }
 
-@media only screen and ( max-width: 1090px ) {
+@media only screen and (max-width: 1090px) {
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
-
   }
 }
 
@@ -207,7 +206,7 @@ footer {
   background-size: cover;
 }
 
-.headercontainer {
+&.default {
   display: flex;
   height: 8vh;
   background-color: #e7e3e3;
@@ -217,17 +216,17 @@ footer {
   width: 100%;
 }
 
-h1 {
+&.default {
   display: block;
   font-size: 6em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
   font-weight: bold;
 }
 
-h2 {
+&.default {
   display: block;
   font-size: 3em;
   margin-block-start: 0.67em;
@@ -237,7 +236,7 @@ h2 {
   font-weight: bold;
 }
 
-h3 {
+&.default {
   display: block;
   font-size: 3em;
   margin-block-start: 0.67em;
@@ -268,8 +267,8 @@ input {
   width: 62em;
 }
 
-#states, 
-#fname, 
+#states,
+#fname,
 #pname {
   height: 70px;
   background-color: #dbd5d5;
