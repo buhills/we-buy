@@ -189,3 +189,88 @@ footer {
   display: inline-block;
   margin-bottom: 10px;
 }
+
+@media only screen and ( max-width: 1090px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+
+  }
+
+  }
+  
+  .main-tex {
+    background-image: url(../images/pexels-nick-wehrli-3751391.jpg);
+    height: 50rem;
+    width: 100%;
+    background-size: cover;
+}
+
+.headercontainer {
+  display: flex;
+  height: 8vh;
+  background-color: #e7e3e3;
+  align-items: center;
+  gap: 20px;
+  padding-left: 100px;
+  width: 100%;
+}
+
+h1 {
+  display: block;
+  font-size: 6em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h2 {
+  display: block;
+  font-size: 3em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 3em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  font-size: 2.2em;
+  margin-block-start: 2em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+input {
+  font-size: xx-large;
+  text-indent: 20px;
+}
+
+.valuation-container-textblock {
+  padding-right: 100px;
+  height: 100px;
+  padding-left: 100px;
+  width: 62em;
+}
+
+#states, #fname, #pname {
+  height: 70px;
+  background-color: #dbd5d5;
+  border: none;
+}
