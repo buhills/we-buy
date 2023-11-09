@@ -87,7 +87,7 @@ h1 {
   text-align: left;
 }
 
-.valuation-container-textfield-plt-ste
+.valuation-container-textfield-plt-ste,
 .valuation-container-textfield-vin {
   background-color: #b20000;
   float: left;
@@ -118,7 +118,7 @@ h1 {
 }
 
 #states,
-#fname, 
+#fname,
 #pname {
   height: 35px;
   background-color: #dbd5d5;
