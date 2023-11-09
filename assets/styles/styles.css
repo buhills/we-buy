@@ -21,12 +21,12 @@ body {
   width: 25rem;
 }
 
-.headercontainer__header {
+.headercontainer-header {
   display: inline-flex;
   gap: 20px;
 }
 
-.header__logo--png {
+.header-logo-png {
   height: 8vh;
   display: inline-block;
 }
@@ -37,25 +37,25 @@ body {
   align-items: center;
 }
 
-.header__logo--txt {
+.header-logo-txt {
   color: rgb(154, 20, 20);
   line-height: 3vh;
   font-size: xx-large;
 }
 
-.header__logo--png {
+.header-logo-png {
   color: #ff0000;
   height: 2vh;
   width: max-content;
 }
 
-.header__why,
-.header__news,
-.header__contactUs {
+.header-why,
+.header-news,
+.header-contactUs {
   display: none;
 }
 
-.main__tex {
+.main-tex {
   /* the image used */
   background-image: url("../images/pexels-nick-wehrli-3751391.jpg");
   height: 30rem;
@@ -68,13 +68,13 @@ h1 {
   color: #f5f5f5;
 }
 
-.valuation__container {
+.valuation-container {
   position: relative;
   width: 18rem;
   height: 10vh;
 }
 
-.valuation__container--textblock {
+.valuation-container-textblock {
   position: absolute;
   background-color: #f7f7f7;
   padding-left: 15px;
@@ -84,31 +84,34 @@ h1 {
   /* width: 18rem; */
   border-color: 2px #000;
   display: block;
+  text-align: center;
 }
 
-.valuation__container--text {
+.valuation-container-text {
   padding-top: 15px;
+  text-align: left;
 }
 
-.valuation__container--textfield-plt-ste{
+.valuation-container-textfield-plt-ste{
   background-color: #b20000;
+  text-align: left;
 }
 
-.valuation__container--whysellwithus {
+.valuation-container-whysellwithus {
   background-color: #f7f7f7;
   width: 25rem;
   height: 2rem;
   text-align: left;
 }
 
-.valuation__container--whysellwithus--txt {
+.valuation-container-whysellwithus-txt {
   margin-top: 210px;
   background-color: #f7f7f7;
   color: #b20000;
   padding-left: 10px;
 }
 
-.valuation__container--form-button {
+.valuation-container-form-button {
   background-color: #b20000;
   height: 3em;
   border-radius: 8px;
@@ -116,18 +119,25 @@ h1 {
   color: #fff;
   border: none;
   z-index: auto;
+}
+
+#states,
+#fname {
+ height: 35px;
+ background-color: #dbd5d5 ;
+ border: none;
+}
+
+.valuation-container-form-buttongetoffer {
+ 
+}
+
+.contactus-container {
+  position: relative;
   text-align: center;
 }
 
-#fname {
-  justify-content: center;
-}
-
-.contactus__container {
-  position: relative;
-}
-
-.contactus__container--form {
+.contactus-container-form {
   position: absolute;
   background-color: #f7f7f7;
   padding-left: 15px;
@@ -138,7 +148,7 @@ h1 {
   padding-top: 25px;
 }
 
-.contactus__container--form-button {
+.contactus-container-form-button {
   background-color: #b20000;
   height: 3em;
   border-radius: 8px;
@@ -169,20 +179,20 @@ footer {
   width: 25rem;
 }
 
-.footer__container--logo-png {
+.footer-container-logo-png {
   height: 4vh;
   display: inline-block;
   padding-top: 15px;
 }
 
-.footer__container--logo-txt {
+.footer-container-logo-txt {
   color: white;
   height: 2vh;
   width: max-content;
   padding-top: 7px;
 }
 
-/* .footer__container--logos-links {
+/* .footer-container-logos-links {
   display: flex;
   justify-content: space-around;
   background-color: cyan;
@@ -190,11 +200,11 @@ footer {
 
 }  */
 
-/* .footer__container--logos-linkfb,
-.footer__container--logos-linkx,
-.footer__container--logos-linkig,
-.footer__container--logos-linkylp,
-.footer__container--logos-linkytb {
+/* .footer-container-logos-linkfb,
+.footer-container-logos-linkx,
+.footer-container-logos-linkig,
+.footer-container-logos-linkylp,
+.footer-container-logos-linkytb {
 height: 2em;
 width: 2rem;
 } */
@@ -204,11 +214,11 @@ width: 2rem;
 }
 
 
-@media (min-width: 786px) {
-  .header__contactUs,
-  .header__news, 
-  .header__logo--png,
-  .header__logo--txt {
+/* @media (min-width: 786px) {
+  .header-contactUs,
+  .header-news, 
+  .header-logo-png,
+  .header-logo-txt {
     display: inline-block;
   }
 
@@ -222,4 +232,4 @@ width: 2rem;
     font-size: medium; 
   }
 
-}
+} */
