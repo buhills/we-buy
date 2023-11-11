@@ -154,11 +154,9 @@ img {
 .contactus-container-form {
   position: absolute;
   background-color: #f7f7f7;
-  padding-left: 15px;
-  padding-right: 15px;
   border-radius: 10px;
   border-color: 2px #000;
-  padding-top: 25px auto 15px;
+  padding: 15px;
   width: 90%;
   top: -75px;
   left: 15px;
