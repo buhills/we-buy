@@ -71,7 +71,6 @@ h1 {
 
 .valuation-container {
   position: relative;
-  /* width: 18rem; */
   height: 20vh;
 }
 
@@ -88,7 +87,6 @@ h1 {
   top: -75px;
   left: 15px;
   width: 90%;
-
 }
 
 .valuation-container-text {
@@ -130,7 +128,7 @@ img {
   padding-inline: 10px;
   color: #fff;
   border: none;
-  cursor: pointer
+  cursor: pointer;
 }
 
 #states {
@@ -160,8 +158,7 @@ img {
   padding-right: 15px;
   border-radius: 10px;
   border-color: 2px #000;
-  padding-top: 25px;
-  padding-bottom: 15px;
+  padding-top: 25px auto 15px;
   width: 90%;
   top: -75px;
   left: 15px;
@@ -206,14 +203,16 @@ footer {
   display: inline-flex;
   float: left;
   align-items: center;
-  color:#f7f7f7;
+  color: #f7f7f7;
   font-size: xx-large;
   line-height: 5px;
   padding-top: 10px;
 }
 
 .icons-container {
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
   margin-bottom: 2px;
 }
 
@@ -223,4 +222,20 @@ footer {
   font-size: small;
   width: 100%;
   padding-left: 20px;
+}
+
+.footer-about {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.footer-customerservice {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.designer {
+  font-size: xx-small;
 }
