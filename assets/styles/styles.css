@@ -11,36 +11,41 @@ body {
   height: 100%;
 }
 
-.headercontainer {
-  display: flex;
+.header-container {
+  display: inline-flex;
   height: 8vh;
-  background-color: #fff;
+  background-color: #f7f7f7;
   align-items: center;
   gap: 20px;
   padding-left: 10px;
-  width: 25rem;
+  width: 100%;
 }
 
-.headercontainer-header {
+.header-container-header {
   display: inline-flex;
+  float: left;
   gap: 20px;
 }
 
-.header-logo-png {
+/* .header-logo-png {
   display: inline-block;
   color: #f00;
   height: 2vh;
   width: max-content;
-}
+} */
 
-.webuy {
+.header-container-webuy {
   display: inline-flex;
   float: left;
   align-items: center;
+  color: #fc3d3d;
+  font-size: xx-large;
+  line-height: 5px;
+  height: 3vh;
 }
 
 .header-logo-txt {
-  color: #9a1414;
+  color: #fc3d3d;
   line-height: 3vh;
   font-size: xx-large;
 }
@@ -53,9 +58,9 @@ body {
 
 .main-tex {
   /* the image used */
-  background-image: url("../images/pexels-nick-wehrli-3751391.jpg");
-  height: 25rem;
-  width: 21rem;
+  background-image: url("../images/bentleyREDsideview-mulsanne-3169363_1280.jpeg");
+  height: 20rem;
+  width: 100%;
   background-size: cover;
 }
 
@@ -66,8 +71,7 @@ h1 {
 
 .valuation-container {
   position: relative;
-  width: 18rem;
-  height: 10vh;
+  height: 20vh;
 }
 
 .valuation-container-textblock {
@@ -75,16 +79,21 @@ h1 {
   background-color: #f7f7f7;
   padding-left: 15px;
   padding-right: 15px;
-  margin: -70px -40px 15px 15px;
+  padding-top: 10px;
   border-radius: 10px;
-  border-color: 2px #000;
+  border-color: 6px #020202;
   display: block;
   text-align: center;
+  top: -75px;
+  left: 15px;
+  width: 90%;
 }
 
 .valuation-container-text {
   padding-top: 15px;
   text-align: left;
+  background-color: #f7f7f7;
+  width: 100%;
 }
 
 .valuation-container-textfield-plt-ste,
@@ -94,17 +103,22 @@ h1 {
 }
 
 .valuation-container-whysellwithus {
-  background-color: #f7f7f7;
-  width: 25rem;
-  height: 2rem;
-  text-align: left;
+  background-color: #fff;
+  width: 100%;
+  height: 4vh;
+  text-align: center;
 }
 
 .valuation-container-whysellwithus-txt {
   margin-top: 210px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   color: #b20000;
   padding-left: 10px;
+}
+
+img {
+  width: 100%;
+  height: 50vh;
 }
 
 .valuation-container-form-button {
@@ -114,31 +128,39 @@ h1 {
   padding-inline: 10px;
   color: #fff;
   border: none;
-  z-index: auto;
+  cursor: pointer;
 }
 
-#states,
-#fname,
-#pname {
-  height: 35px;
+#states {
+  height: 25px;
   background-color: #dbd5d5;
   border: none;
+}
+
+#fname,
+#pname {
+  height: 25px;
+  background-color: #dbd5d5;
+  border: none;
+  float: left;
 }
 
 .contactus-container {
   position: relative;
   text-align: center;
+  background-color: #000;
 }
 
 .contactus-container-form {
   position: absolute;
-  background-color: #f7f7f7;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: -40px -70px 10px 15px;
+  background-color: #ce3434;
   border-radius: 10px;
   border-color: 2px #000;
-  padding-top: 25px;
+  padding: 15px;
+  width: 90%;
+  top: -75px;
+  left: 15px;
+  box-shadow: 6px 5px 3px #d9d2d2;
 }
 
 .contactus-container-form-button {
@@ -167,25 +189,284 @@ footer {
   background-color: #520000;
   margin-top: 320px;
   color: #f5f5f5;
-  height: 120px;
+  height: 30vh;
   align-items: center;
-  width: 25rem;
-}
-
-.footer-container-logo-png {
-  height: 4vh;
-  display: inline-block;
-  padding-top: 15px;
+  width: 100%;
 }
 
 .footer-container-logo-txt {
-  color: #fff;
-  height: 2vh;
-  width: max-content;
-  padding-top: 7px;
+  color: #f7f7f7;
+}
+
+.webuy-footer {
+  display: inline-flex;
+  float: left;
+  align-items: center;
+  color: #f7f7f7;
+  font-size: xx-large;
+  line-height: 5px;
+  padding-top: 10px;
 }
 
 .icons-container {
-  display: inline-block;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 2px;
+}
+
+.container-footer-end {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.footer-about {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.footer-customerservice {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.designer {
+  font-size: xx-small;
+}
+
+@media screen and (min-width: 786px) {
+  .headercontainer {
+    /* display: inline-flex; */
+    height: 16vh;
+    background-color: #f7f7f7;
+    /* align-items: center; */
+    /* gap: 20px; */
+    padding-left: 30px;
+    /* width: 100%; */
+  }
+
+  .headercontainer-header {
+    /* display: inline-flex; */
+    /* float: left; */
+    /* gap: 20px; */
+  }
+
+  .header-logo-png {
+    color: rgb(12, 10, 10);
+    height: 5vh;
+    width: max-content;
+  }
+  
+  .header-container-webuy {
+    /* display: inline-flex; */
+    /* float: left; */
+    /* align-items: center; */
+    color: #fc3d3d;
+    font-size: xx-large;
+    line-height: 5px;
+    height: 3vh;
+  }
+
+  .webuy-header {
+    align-items: center;
+    color: #fc3d3d;
+    font-size: xx-large;
+    line-height: 5px;
+    height: 8vh;
+  }
+
+  .header-container-webuy {
+    align-items: center;
+    color: #fc3d3d;
+    font-size: xx-large;
+    line-height: 5px;
+    height: 3vh;
+  }
+
+  .header-logo-txt {
+    color: #fc3d3d;
+    line-height: 3vh;
+    font-size: xx-large;
+  }
+
+  .header-why,
+  .header-news,
+  .header-contactus {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 20px;
+    float: right;
+  }
+
+  .main-tex {
+    /* the image used */
+    /* background-image: url("../images/bentleyREDsideview-mulsanne-3169363_1280.jpeg"); */
+    height: 35rem;
+    /* width: 100%;
+    background-size: cover; */
+  }
+
+  h1 {
+    padding: 30px;
+    font-size: xx-large;
+    /* color: #f5f5f5; */
+  }
+
+  h3 {
+    font-size: xx-large;
+  }
+
+  .valuation-container {
+    /* position: relative; */
+    /* height: 36vh; */
+    /* background-color: #e5dddd; */
+    /* text-align: center; */
+  }
+
+  .valuation-container-textblock {
+    /* position: absolute; */
+    background-color: rgba(135, 125, 125, 0.631);
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* padding-top: 10px; */
+    /* border-radius: 10px; */
+    /* border-color: 6px #020202; */
+    /* display: block; */
+    /* text-align: center; */
+    top: -240%;
+    left: 60%;
+    width: 35%;
+    padding-bottom: 15px;
+  }
+
+  .valuation-container-text {
+    /* padding-top: 15px; */
+    text-align: center;
+    /* background-color: #f7f7f7; */
+    /* width: 100%; */
+    font-size: large;
+  }
+  
+  /* .valuation-container-textfield-plt-ste,
+  .valuation-container-textfield-vin {
+  background-color: #100a0a;
+  float: left;
+} */
+
+.valuation-container-whysellwithus {
+  background-color: #974040;
+  width: 40%; 
+  height: 4vh;
+  padding-left: 30px;
+}
+
+.we-will-buy,
+.paid-before,
+.collect-your-car,
+.we-come,
+.fast-payment {
+  display: flex;
+  gap: 10px;
+}
+
+.valuation-container-whysellwithus {
+  background-color: #890f0f;
+  /* width: 4%; */
+  height: 40vh;
+  /* text-align: left; */
+  /* margin: 0, 0; */
+  /* right: 30%; */
+}
+
+.valuation-container-whysellwithus-txt {
+  margin-top: 1px;
+  background-color: #f9f7f7;
+  color: #b20000;
+  padding-left: 30px;
+}
+
+.container-latest-news {
+  /* background-color: thistle; */
+  /* margin: auto; */
+  width: 100%;
+  /* padding: 50px; */
+  background-color: #f9f8f8;
+}
+
+.container-latest-news-header {
+  text-align: center;
+  padding: 15px;
+  font-size: xx-large;
+}
+
+.container-latest-news-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  /* width: 100%; */
+  padding: 40px;
+  margin-bottom: 20px;
+}
+
+.one,
+.two,
+.three {
+  border: 0.56px solid rgb(115, 113, 113);
+} 
+
+.header-in{
+
+}
+
+.round-img {
+  border-radius: 50rem;
+}
+
+#datee {
+  font-weight: 900;
+  color: #060606;
+  font-size: xx-small;
+}
+
+.readm {
+  color: #fc3d3d;
+  font-size: x-small;
+  font-weight: 900;
+}
+
+iframe {
+  border-radius: 5px;
+}
+
+.container-contactus-img {
+  display: inline-flexbox;
+  width: 100%;
+  background-color: #f5f5f5;
+  height: 50vh;
+}
+
+.contactus-container-form {
+  /* position: absolute; */
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border-color: 2px #000;
+  padding: 15px;
+  width: 40%;
+  top: 62px;
+  left: 45px;
+  box-shadow: 6px 5px 3px #d9d2d2;
+}
+
+img {
+  width: 60%;
+  height: 50vh;
+  float: right;
+}
+
 }
