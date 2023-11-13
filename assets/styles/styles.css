@@ -252,16 +252,9 @@ footer {
   }
 
   .header-logo-png {
-    color: rgb(12, 10, 10);
+    color: #0c0a0a;
     height: 5vh;
     width: 100%;
-  }
-  
-  .header-container-webuy {
-    color: #fc3d3d;
-    font-size: xx-large;
-    line-height: 5px;
-    height: 3vh;
   }
 
   .webuy-header {
@@ -388,7 +381,7 @@ footer {
   .two,
   .three {
     border: 0.56px solid #737171;
-  } 
+  }
 
   .round-img {
     border-radius: 50rem;
@@ -434,5 +427,4 @@ footer {
     height: 50vh;
     float: right;
   }
-
 }
