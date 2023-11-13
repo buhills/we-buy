@@ -17,21 +17,21 @@ Project Description
 
 ## About this App
  This is a mobile responsive app built for car retails whereby customers or its users can access and sell or buy their cars irrespective of its states.
- 
+
 ## Built with
- - HTML
- - CSS
+- HTML
+- CSS
 
 ### Prerequisites
     Knowledge about CSS styles & HTML tags
- - section 
- - Flex
- - Grid
+- section 
+- Flex
+- Grid
 
 ## Start App
 Click this link
 
 ## Author
 . GitHub: [@buhills](https://github.com/buhills)
-.Twitter: [@hills_nfor](https://twitter.com/hills_nfor)
-.Linkedln: [@hills_nfor](https://linkedln.com/hills_nfor)
+. Twitter: [@hills_nfor](https://twitter.com/hills_nfor)
+. Linkedln: [@hills_nfor](https://linkedln.com/hills_nfor)
