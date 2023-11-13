@@ -24,7 +24,7 @@ Project Description
 
 ### Prerequisites
   Knowledge about CSS styles & HTML tags
-- section 
+- section
 - Flex
 - Grid
 
