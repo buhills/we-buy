@@ -406,7 +406,7 @@ footer {
   .container-contactus-img {
     display: inline-flexbox;
     width: 100%;
-    background-color: rgba(188, 200, 198 0.34);
+    background-color: #fff
     height: 15vh;
   }
 
@@ -443,14 +443,8 @@ footer {
     margin-top: 25px;
   }
 
-  .header-logo-txt {
-    color: #fc3d3d;
-    line-height: 2vh;
-    font-size: xx-large;
-  }
-
   .footer-logo-txt {
-    display: inline-flex; 
+    display: inline-flex;
   }
 
   .footer-container-logo-txt {
@@ -468,6 +462,7 @@ footer {
   .children {
     font-size: xx-small;
   }
+
   .designer {
     font-size: x-small;
     margin-bottom: 10px;
