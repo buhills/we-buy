@@ -3,17 +3,21 @@
 Project Description
 
 ## App Home page
-![home](./assets/images/fromhomecomfort1.jpeg)
-> This is the bueatiful front view of the app strickly reponsive on desktop with min width of 786px.
+![home](./assets/images/desktopviewhomep.png)
+> This is the bueatiful front view of the app strickly reponsive on desktop with min width of 786px having a section of every car valuation details from all client that visits the site.
 
-## Car Valuation
-![car valuation](./assets/images/inspection.jpeg)
+## Why sell with us
+![Why sell with us](./assets/images/desktopviewwhysellwithus.png)
 
- > We evaluate the value and the price of the car base on some of the details provided by the customer or users usally the **Car VIN** or **Car Plate No:**.
+ > This section is actually building some pychological confidence with the client making them to see reasons why they should do business with us.
+
+## Latest News
+![Latest News](./assets/images/desktopvwlatestnews.png)
+>This section gives client the trending news, some selling tips and some models the site has been able to trade proviously. 
 
 ## Contact Us
-![Contact Us](./assets/images/pexels-breno-cardoso-11941833.jpg)
->In this section are list of our contacts and social media links where constomers get in touch with us
+![Contact Us](./assets/images/desktopvwcontactus.png)
+>In this section are list of our contacts and social media links where customers get in touch with us and get to see some frequently asked questions and answers to these questions
 
 ## About this App
  This is an app built for car retails whereby customers or its users can access and sell or buy their cars irrespective of the state of the car.
