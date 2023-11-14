@@ -9,15 +9,15 @@ Project Description
 ## Why sell with us
 ![Why sell with us](./assets/images/desktopviewwhysellwithus.png)
 
- > This section is actually building some pychological confidence with the client making them to see reasons why they should do business with us.
+> This section is actually building some pychological confidence with the client making them to see reasons why they should do business with us.
 
 ## Latest News
 ![Latest News](./assets/images/desktopvwlatestnews.png)
->This section gives client the trending news, some selling tips and some models the site has been able to trade proviously. 
+> This section gives client the trending news, some selling tips and some models the site has been able to trade proviously. 
 
 ## Contact Us
 ![Contact Us](./assets/images/desktopvwcontactus.png)
->In this section are list of our contacts and social media links where customers get in touch with us and get to see some frequently asked questions and answers to these questions
+> In this section are list of our contacts and social media links where customers get in touch with us and get to see some frequently asked questions and answers to these questions
 
 ## About this App
  This is an app built for car retails whereby customers or its users can access and sell or buy their cars irrespective of the state of the car.
