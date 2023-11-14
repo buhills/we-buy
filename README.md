@@ -13,7 +13,7 @@ Project Description
 
 ## Latest News
 ![Latest News](./assets/images/desktopvwlatestnews.png)
-> This section gives client the trending news, some selling tips and some models the site has been able to trade proviously. 
+> This section gives client the trending news some selling tips and some models the site has been able to trade proviously.
 
 ## Contact Us
 ![Contact Us](./assets/images/desktopvwcontactus.png)
