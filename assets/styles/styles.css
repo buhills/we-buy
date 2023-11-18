@@ -1,0 +1,470 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: block;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
+
+.header-container {
+  display: inline-flex;
+  height: 8vh;
+  background-color: #f7f7f7;
+  align-items: center;
+  gap: 20px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.header-container-header {
+  display: inline-flex;
+  float: left;
+  gap: 20px;
+}
+
+/* .header-logo-png {
+  display: inline-block;
+  color: #f00;
+  height: 2vh;
+  width: max-content;
+} */
+
+.header-container-webuy {
+  display: inline-flex;
+  float: left;
+  align-items: center;
+  color: #fc3d3d;
+  font-size: xx-large;
+  line-height: 5px;
+  height: 3vh;
+}
+
+.header-logo-txt {
+  color: #fc3d3d;
+  line-height: 3vh;
+  font-size: xx-large;
+}
+
+.header-why,
+.header-news,
+.header-contactus {
+  display: none;
+}
+
+.main-tex {
+  /* the image used */
+  background-image: url("../images/bentleyREDsideview-mulsanne-3169363_1280.jpeg");
+  height: 20rem;
+  width: 100%;
+  background-size: cover;
+}
+
+h1 {
+  padding: 20px;
+  color: #f5f5f5;
+}
+
+.valuation-container {
+  position: relative;
+  height: 20vh;
+}
+
+.valuation-container-textblock {
+  position: absolute;
+  background-color: #f7f7f7;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  border-radius: 10px;
+  border-color: 6px #020202;
+  display: block;
+  text-align: center;
+  top: -75px;
+  left: 15px;
+  width: 90%;
+}
+
+.valuation-container-text {
+  padding-top: 15px;
+  text-align: left;
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.valuation-container-textfield-plt-ste,
+.valuation-container-textfield-vin {
+  background-color: #b20000;
+  float: left;
+}
+
+.container-whysellwithus {
+  background-color: #fff;
+  width: 100%;
+  height: 4vh;
+  text-align: center;
+}
+
+.container-whysellwithus-txt {
+  margin-top: 210px;
+  background-color: #fff;
+  color: #b20000;
+  padding-left: 10px;
+}
+
+img {
+  width: 100%;
+  height: 50vh;
+}
+
+.valuation-container-form-button {
+  background-color: #b20000;
+  height: 3em;
+  border-radius: 8px;
+  padding-inline: 10px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#states {
+  height: 25px;
+  background-color: #dbd5d5;
+  border: none;
+}
+
+#fname,
+#pname {
+  height: 25px;
+  background-color: #dbd5d5;
+  border: none;
+  float: left;
+}
+
+.contactus-container {
+  position: relative;
+  text-align: center;
+  background-color: #000;
+}
+
+.contactus-container-form {
+  position: absolute;
+  background-color: #ce3434;
+  border-radius: 10px;
+  border-color: 2px #000;
+  padding: 15px;
+  width: 90%;
+  top: -75px;
+  left: 15px;
+  box-shadow: 6px 5px 3px #d9d2d2;
+}
+
+.contactus-container-form-button {
+  background-color: #b20000;
+  height: 3em;
+  border-radius: 8px;
+  padding-inline: 10px;
+  color: #fff;
+  border: none;
+  align-items: center;
+}
+
+h3 {
+  color: #f5f5f5;
+  padding: 20px;
+}
+
+h2 {
+  color: #b20000;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #520000;
+  margin-top: 320px;
+  color: #f5f5f5;
+  height: 30vh;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-container-logo-txt {
+  color: #f7f7f7;
+}
+
+.webuy-footer {
+  display: inline-flex;
+  float: left;
+  align-items: center;
+  color: #f7f7f7;
+  font-size: xx-large;
+  line-height: 5px;
+  padding-top: 10px;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  margin-bottom: 2px;
+}
+
+.container-footer-end {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  width: 100%;
+  padding-left: 20px;
+}
+
+.footer-about {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.footer-customerservice {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.designer {
+  font-size: xx-small;
+}
+
+@media screen and (min-width: 786px) {
+  .headercontainer {
+    height: 16vh;
+    background-color: #1f0a0a;
+    padding-left: 30px;
+  }
+
+  .headercontainer-header {
+    width: 100%;
+  }
+
+  .header-logo-png {
+    color: #0c0a0a;
+    height: 5vh;
+    width: 100%;
+  }
+
+  .webuy-header {
+    align-items: center;
+    color: #fc3d3d;
+    font-size: xx-large;
+    line-height: 5px;
+    height: 8vh;
+  }
+
+  .header-container-webuy {
+    align-items: center;
+    color: #fc3d3d;
+    font-size: xx-large;
+    line-height: 5px;
+    height: 3vh;
+  }
+
+  .header-logo-txt {
+    color: #fc3d3d;
+    line-height: 3vh;
+    font-size: xx-large;
+  }
+
+  .header-why,
+  .header-news,
+  .header-contactus {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 60%;
+    float: right;
+  }
+
+  .main-tex {
+    height: 40rem;
+    width: 100%;
+  }
+
+  h1 {
+    padding: 50px;
+    font-size: 500%;
+  }
+
+  h3 {
+    font-size: 250%;
+    padding-left: 50px;
+  }
+
+  .valuation-container-textblock {
+    background-color: #f7f7f7;
+    top: -240%;
+    left: 60%;
+    width: 35%;
+    padding-bottom: 15px;
+  }
+
+  .valuation-container-text {
+    text-align: center;
+    font-size: large;
+  }
+
+  .valuation-container-whysellwithus {
+    background-color: #974040;
+    width: 40%;
+    height: 4vh;
+    padding-left: 50px;
+  }
+
+  .we-will-buy,
+  .paid-before,
+  .collect-your-car,
+  .we-come,
+  .fast-payment {
+    display: flex;
+    gap: 25px;
+  }
+
+  .container-whysellwithus {
+    background-color: #fff;
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    top: -15vh;
+    padding-left: 35px;
+    font-size: x-large;
+    padding-top: 40px;
+    display: flex;
+  }
+
+  .by-sellwithus-img {
+    position: relative;
+    left: -2%;
+    top: -2vh;
+    border-radius: 0 10px;
+  }
+
+  .container-whysellwithus-txt {
+    margin-top: 5px;
+    float: left;
+    height: -3vh;
+  }
+
+  .container-latest-news {
+    width: 100%;
+    background-color: #e7e7e7;
+  }
+
+  .container-latest-news-header {
+    text-align: center;
+    padding: 15px;
+    font-size: xx-large;
+  }
+
+  .container-latest-news-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+
+  .one,
+  .two,
+  .three {
+    border: 0.56px solid #737171;
+  }
+
+  .round-img {
+    border-radius: 50rem;
+  }
+
+  #datee {
+    font-weight: 900;
+    color: #060606;
+    font-size: xx-small;
+  }
+
+  .readm {
+    color: #fc3d3d;
+    font-size: x-small;
+    font-weight: 900;
+  }
+
+  iframe {
+    border-radius: 5px;
+  }
+
+  .container-contactus-img {
+    display: inline-flexbox;
+    width: 100%;
+    background-color: #fff;
+    height: 15vh;
+  }
+
+  .contactus-container-form {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    border-color: 2px #000;
+    padding: 15px;
+    width: 40%;
+    top: 62px;
+    left: 45px;
+    box-shadow: 6px 5px 3px #d9d2d2;
+  }
+
+  img {
+    width: 60%;
+    height: 50vh;
+    float: right;
+  }
+
+  .main-footer-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #520000;
+    width: 100%;
+    height: 50vh;
+    padding: 40px;
+  }
+
+  .footer-contactus-icons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 25px;
+  }
+
+  .footer-logo-txt {
+    display: inline-flex;
+  }
+
+  .footer-container-logo-txt {
+    color: #fff;
+    font-size: xx-large;
+    line-height: 3vh;
+  }
+
+  .logo {
+    font-size: xx-large;
+    color: #fff;
+    line-height: 1vh;
+  }
+
+  .children {
+    font-size: xx-small;
+  }
+
+  .designer {
+    font-size: x-small;
+    margin-bottom: 10px;
+  }
+}
